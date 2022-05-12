@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from 'react-modal'
-import { useDispatch, useSelector } from 'react-redux'
-import { openModal, closeModal } from '../features/layout/modalSlice'
+import { useDispatch } from 'react-redux'
+import { closeModal } from '../features/layout/modalSlice'
 import {clearCart} from '../features/cart/cartSlice'
 
 Modal.setAppElement('#root')

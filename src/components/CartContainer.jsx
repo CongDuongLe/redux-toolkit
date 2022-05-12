@@ -37,7 +37,7 @@ const CartContainer = () => {
                   <hr className="" />
                   <div className='cart-total'>
                       <h4 className='font-semibold'>
-                          Total: <span className='font-semibold'> ${total}</span>
+                          Total: <span className='font-semibold'> ${Math.round(total)}</span>
                       </h4>
                   </div>
                   <button 
